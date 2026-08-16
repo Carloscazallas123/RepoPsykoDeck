@@ -45,6 +45,53 @@ En cada turno, una criatura en el tablero puede realizar una de estas opciones:
 * **Rotación Hábitat:** Cada **3 turnos**, el escenario cambia automáticamente de territorio.
 * **Impacto Global:** Los escenarios modifican las condiciones del tablero, otorgando ventajas, desventajas o efectos especiales a ambos jugadores según los tipos de criatura en juego.
 
+# 📜 REGLAMENTO OFICIAL: PSYKODECK
+
+---
+
+## 🎴 1. Funcionamiento de las Cartas y Mazo
+
+### 📥 Inicio y Robo de Cartas
+* **Mano Inicial:** Al comienzo de la partida, **Urakei (La Flor de Dios)** otorga **4 cartas aleatorias** a cada jugador.
+* **Robo por Turno:** Al inicio de cada turno, la **Flor del Afterline** otorga **2 cartas aleatorias** a cada jugador.
+* **Límite de Mano y Mazo Personal:**
+  * El límite máximo en la mano es de **6 cartas**.
+  * Si tu mano está llena al recibir cartas, estas **se almacenan en tu Mazo** (el cual inicia vacío al principio de la partida).
+  * El Mazo se baraja automáticamente al inicio de cada turno.
+
+### ⚡ Acciones con Cartas de la Mano
+Durante su turno, un jugador puede realizar una de las siguientes dos acciones con las cartas de su mano:
+
+1. **Desplegar / Invocación:** Pones la criatura en el tablero pagando el coste total de **Psique** indicado en la carta.
+2. **Descartar / Erradicar:** Envías una carta al cementerio **pagando la mitad de su coste de Psique** para liberar espacio en la mano (ejemplo: si una carta cuesta 10 de Psique, descartarla cuesta 5 de Psique).
+
+---
+
+## ⚔️ 2. Funcionamiento del Tablero y Combate
+
+### 🔮 El Alma del Jugador y la Partida
+* **El Alma:** Cada jugador representa un **Alma** canalizadora de magia para invocar criaturas.
+* **Vida del Jugador:** Cada Alma inicia la partida con **150 Puntos de Vida (HP)**.
+* **Condición de Victoria:** Si no hay criaturas defensoras en el tablero rival, se puede **atacar directamente al Alma del jugador**. El primer jugador cuya Vida llegue a 0, pierde la partida.
+* **Límite de Tablero:** Máximo **4 criaturas** activas simultáneamente por jugador.
+
+### 🤺 Estilo de Combate
+* Todas las criaturas invocadas en el tablero quedan expuestas y listas para la acción.
+* En su turno, el jugador elige qué criatura propia ataca y a qué criatura o Alma rival dirigir el golpe.
+
+### ♟️ Acciones de las Criaturas en Campo
+En cada turno, una criatura en el tablero puede realizar una de estas opciones:
+* ⚔️ **Atacar:** Realiza un impacto de daño a una criatura o al Alma enemiga.
+* 🛡️ **No Hacer Nada:** Permanece en posición táctica o de guardia.
+* 💀 **Sacrificarse (Límite: 1 por turno):** La criatura se autodestruye para liberar espacio en el tablero. A cambio, el jugador **recupera el 50% de su coste de Psique original** en forma de reembolso de recursos.
+
+---
+
+## 🏔️ 3. Los Escenarios del Afterline
+
+* **Rotación Hábitat:** Cada **3 turnos**, el escenario cambia automáticamente de territorio.
+* **Impacto Global:** Los escenarios modifican las condiciones del tablero, otorgando ventajas, desventajas o efectos especiales a ambos jugadores según los tipos de criatura en juego.
+
 ---
 
 ### 🏔️ VALLE ENNUBLADO
@@ -67,5 +114,17 @@ En cada turno, una criatura en el tablero puede realizar una de estas opciones:
 
 ### 🌸 CAMPO DEL AFTERLINE
 * **Lore / Concepto:** Un prado sagrado iluminado por la mística *Flor del Afterline*.
-* **Efectos Globales (Dur
+* **Efectos Globales (Duración: 3 Turnos):**
+  1. 🌺 **Cosecha Mental:** Se roban **4 cartas por turno** en lugar de 2.
+  2. ☮️ **Paz Interior:** Las criaturas de tipo `PEACE` ganan **+12 de Vida Máxima**.
+  3. ✨ **Vitalidad Sagrada:** Al inicio de cada turno, TODAS las criaturas en campo y AMBOS jugadores recuperan un 25% de su Vida.
+
+---
+
+### 👁️ VACÍO DE CULPA
+* **Lore / Concepto:** Un abismo sin fin repleto de ojos rojos que juzgan cada movimiento.
+* **Efectos Globales (Duración: 3 Turnos):**
+  1. 👁️ **Peso de la Conciencia:** La atmósfera opresiva reduce el Ataque de todas las criaturas en el tablero.
+  2. ⚖️ **Imputabilidad:** Las criaturas de tipo `FAULT` ganan Ataque y Velocidad, pero su Vida Máxima se reduce.
+  3. 💔 **Parálisis por Remordimiento:** El dolor emocional es tan abrumador que las criaturas de tipo `PAIN` **no pueden atacar** mientras este escenario esté activo.
 
