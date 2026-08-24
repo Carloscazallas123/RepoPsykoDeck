@@ -1,0 +1,21 @@
+SET NAMES 'utf8mb4';
+
+DROP DATABASE IF EXISTS Psykodeck;
+CREATE DATABASE Psykodeck ;
+USE Psykodeck;
+
+CREATE TABLE INSIGNIAS (
+	ID_INSIGNIA INT NOT NULL AUTO_INCREMENT COMMENT 'Identificador de la Insignia',
+    NOMBRE VARCHAR(50) NOT NULL COMMENT 'Nombre de la Isignia',
+    DESCRIPCION TEXT NULL COMMENT 'Descripción de la Insignia',
+    CONSTRAINT PK_ID_INSIGNIA PRIMARY KEY (ID_INSIGNIA)
+);
+
+CREATE TABLE USUARIOS (
+	ID_USUARIO INT NOT NULL AUTO_INCREMENT COMMENT 'Identificador del Usuario',
+    NOMBRE VARCHAR(25) NOT NULL COMMENT 'Nombre del Usuario',
+    CORREO VARCHAR(100) NOT NULL COMMENT 'Correo Electronico del Usuario',
+    CONTR VARCHAR(30) NOT NULL COMMENT 'Contraseña del Usuario',
+    Psique VARCHAR(30) NOT NULL COMMENT 'La Psique del Usuario',
+    
+);
